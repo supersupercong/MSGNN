@@ -21,23 +21,35 @@ We embed the proposed graph in a deep neural network and train it in an end-to-e
 ```
 There exists significant patch recurrence property of a rainy image, that is, similar patches tend to recur many times in one image and its multi-scale images and external images.
 ```
-<img src="figs/motivation.png" width="50%">
+<img src="figs/motivation.png" width="100%">
 
 ## Overall of MSGNN
+```
+Our method consists of two branches: an internal data-based supervised branch and an external data-participated unsupervised branch. 
+In the supervised branch, we explore the internal property of multi-scale images by reasoning the multi-scale patch correlations to help the original-scale image learn more internal image information. 
+In the unsupervised branch, we build the external patch correlations between input images and another external image as an exemplar by utilizing the superiority of the graph network which can search similar patches between any two samples so that the network is able to learn more rainy conditions for better rain
+removal.
+```
 ![framework_img](figs/overall.png)
 
 ## Graph Model
+```
+Our graph model exploits both internal and external non-local similarity. 
+Internal non-local similarity is utilized to identify similar patches to the query patch within the input image of different scales. 
+The external non-local similarity is to find similar patches from another rainy image, the external exemplar.
+```
 ![DualCMT](figs/graph.png)
 
 ## Results
-<img src="figs/table.png" width="75%">
+<img src="figs/table.png" width="100%">
 
 ### Visual comparisons on the synthetic dataset
-<img src="figs/synthetic.png" width="75%">
+<img src="figs/synthetic.png" width="100%">
 
 ### Visual comparisons on the real-world dataset
-<img src="figs/real.png" width="75%">
+<img src="figs/real.png" width="100%">
 
+## Installment dependency
 
 1 Create conda environment.
 ```
