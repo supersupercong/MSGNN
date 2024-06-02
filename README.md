@@ -115,7 +115,7 @@ bash python show.py
 
 ## Contact
 
-Any questions can contct: Cong Wang [supercong94@gmail.com]
+Any questions can contact: Cong Wang [supercong94@gmail.com]
 
 ## Our other deraining works
 
