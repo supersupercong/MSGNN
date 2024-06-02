@@ -123,7 +123,7 @@ ACM MM-2020: [Dcsfn: Deep cross-scale fusion network for single image rain remov
 
 ACM MM-2020: [Joint self-attention and scale-aggregation for self-calibrated deraining network](https://github.com/Ohraincu/JDNet)
 
-AAAI-2020: [Online-updated high-order collaborative networks for single image deraining](https://github.com/supersupercong/Online-updated-High-order-Collaborative-Networks-for-Single-Image-Deraining)
+AAAI-2022: [Online-updated high-order collaborative networks for single image deraining](https://github.com/supersupercong/Online-updated-High-order-Collaborative-Networks-for-Single-Image-Deraining)
 
 IEEE TCSVT-2022: [Semi-supervised image deraining using knowledge distillation](https://github.com/cuiyixin555/SSID-KD)
 
