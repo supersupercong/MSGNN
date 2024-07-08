@@ -83,19 +83,19 @@ pip install -r requirements.txt
 ### Train
 
 ```
-python python train.py
+python train.py
 ```
 
 ### Test
 
 ```
-python python eval.py
+python eval.py
 ```
 
 ### Show
 
 ```
-python python show.py
+python show.py
 ```
 
 
